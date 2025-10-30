@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;      // empty child at feet
     public float groundRadius = 0.15f;
     public LayerMask groundLayer;
-
-    Rigidbody2D rb;
+    [SerializeField] private Animator animator;
+    [SerializeField]  private Rigidbody2D rb;
     bool grounded;
     float move;
 
@@ -18,16 +18,21 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        baseScaleX = Mathf.Abs(transform.localScale.x);   // <- store starting width
+        animator = GetComponent<Animator>();
+        baseScaleX = Mathf.Abs(transform.localScale.x);
     }
+
 
     void Update()
     {
         move = Input.GetAxisRaw("Horizontal");
+        animator.SetFloat("yVelocity", rb.linearVelocity.y);
 
         if (Input.GetButtonDown("Jump") && grounded)
+        {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
+            animator.SetTrigger("jump");
+        }
         if (move != 0)
         {
             var s = transform.localScale;
@@ -40,5 +45,13 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+        if(move != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
     }
 }
