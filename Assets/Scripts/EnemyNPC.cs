@@ -2,10 +2,12 @@
 
 public class SimpleEnemyPatrol : MonoBehaviour
 {
-    public float speed = 2f;
+    public float speed = 1.8f;
     public Transform pointA, pointB;
+
     private Vector2 aPos, bPos;
     private bool movingToB = true;
+
     private SpriteRenderer sr;
     private Rigidbody2D rb;
 
@@ -19,24 +21,24 @@ public class SimpleEnemyPatrol : MonoBehaviour
 
     void FixedUpdate()
     {
+       
+        if (!enabled) return;
+
         Vector2 target = movingToB ? bPos : aPos;
         Vector2 next = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(next);
 
-        // flip toward movement
         if (sr) sr.flipX = (target.x - rb.position.x) > 0f;
 
-        // reached target → reverse
         if (Vector2.Distance(rb.position, target) <= 0.05f)
             movingToB = !movingToB;
     }
 
-    // turn and pause briefly when colliding with player
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.collider.CompareTag("Player"))
         {
-            movingToB = !movingToB;  // reverse direction
+            movingToB = !movingToB;
             StartCoroutine(PauseAfterHit());
         }
     }
@@ -45,7 +47,7 @@ public class SimpleEnemyPatrol : MonoBehaviour
     {
         float oldSpeed = speed;
         speed = 0f;
-        yield return new WaitForSeconds(0.5f);  // short pause so player can move away
+        yield return new WaitForSeconds(0.5f);
         speed = oldSpeed;
     }
 }

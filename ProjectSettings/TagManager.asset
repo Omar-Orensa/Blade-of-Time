@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Collectible
   - Enemy
+  - PlayerAttack
+  - Quicksand
+  - Herb
   layers:
   - Default
   - TransparentFX
