@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 68277ebd47820404cb9269f5eae8c613
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -510927512359721480
+    second: 2. Nigromante_Action_0
+  - first:
+      213: -8988378305761106915
+    second: 2. Nigromante_Action_1
+  - first:
+      213: -5687521177614774989
+    second: 2. Nigromante_Action_2
+  - first:
+      213: -9116040851261726786
+    second: 2. Nigromante_Action_3
+  - first:
+      213: -247253415113603844
+    second: 2. Nigromante_Action_4
+  - first:
+      213: 3762828242289748317
+    second: 2. Nigromante_Action_5
+  - first:
+      213: 167459157951371582
+    second: 2. Nigromante_Action_6
+  - first:
+      213: -1985494341103698709
+    second: 2. Nigromante_Action_7
+  - first:
+      213: -2109199390856693493
+    second: 2. Nigromante_Action_8
+  - first:
+      213: -3431712126389428420
+    second: 2. Nigromante_Action_9
+  - first:
+      213: -598519122298283784
+    second: 2. Nigromante_Action_10
+  - first:
+      213: 1386690035411708006
+    second: 2. Nigromante_Action_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1109
+        width: 299
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f523df6222d8e8f0800000000000000
+      internalID: -510927512359721480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1109
+        width: 287
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14284aad8dd24380800000000000000
+      internalID: -8988378305761106915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1109
+        width: 294
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d82cb6f9dd111b0800000000000000
+      internalID: -5687521177614774989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 738
+        width: 267
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf589605215d7180800000000000000
+      internalID: -9116040851261726786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 739
+        width: 293
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4c6a63454919cf0800000000000000
+      internalID: -247253415113603844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 739
+        width: 296
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59ec7c9950483430800000000000000
+      internalID: 3762828242289748317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 367
+        width: 266
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39d318873fe25200800000000000000
+      internalID: 167459157951371582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 367
+        width: 288
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec37f69a6b1274e0800000000000000
+      internalID: -1985494341103698709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 367
+        width: 293
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09348b345e9ab2e0800000000000000
+      internalID: -2109199390856693493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 213
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f5827c00c1060d0800000000000000
+      internalID: -3431712126389428420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 12
+        width: 282
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8d1248702a1b7f0800000000000000
+      internalID: -598519122298283784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2. Nigromante_Action_11
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 12
+        width: 293
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668e94e7d338e3310800000000000000
+      internalID: 1386690035411708006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      2. Nigromante_Action_0: -510927512359721480
+      2. Nigromante_Action_1: -8988378305761106915
+      2. Nigromante_Action_10: -598519122298283784
+      2. Nigromante_Action_11: 1386690035411708006
+      2. Nigromante_Action_2: -5687521177614774989
+      2. Nigromante_Action_3: -9116040851261726786
+      2. Nigromante_Action_4: -247253415113603844
+      2. Nigromante_Action_5: 3762828242289748317
+      2. Nigromante_Action_6: 167459157951371582
+      2. Nigromante_Action_7: -1985494341103698709
+      2. Nigromante_Action_8: -2109199390856693493
+      2. Nigromante_Action_9: -3431712126389428420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
