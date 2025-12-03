@@ -1786,9 +1786,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuController
   backgroundImage: {fileID: 634836120}
   continueButton: {fileID: 1535485892}
-  settingsPanel: {fileID: 0}
-  musicToggleButton: {fileID: 0}
-  musicButtonText: {fileID: 0}
+  settingsPanel: {fileID: 1962450303}
+  musicToggleButton: {fileID: 905528674}
+  musicButtonText: {fileID: 358351063}
   dojoSilhouette: {fileID: 5696877713847505809, guid: 89e907974f84a0c49b42a6123bc3f82b, type: 3}
   neonSkyline: {fileID: -4988242353616898914, guid: bb5edc1a68b100d48835464f95434702, type: 3}
   desertDunes: {fileID: 3734899597948784420, guid: 58c3e55d68240be4ba87c65a02bce898, type: 3}
@@ -2499,81 +2499,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549658900}
   m_CullTransparentMesh: 1
---- !u!1 &1719856031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1719856032}
-  - component: {fileID: 1719856034}
-  - component: {fileID: 1719856033}
-  m_Layer: 5
-  m_Name: BackgroundImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1719856032
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719856031}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.33708394, y: 0.33708394, z: 0.33708394}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -980.93604, y: -428.99243}
-  m_SizeDelta: {x: 2177.4993, y: 952.2851}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1719856033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719856031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 5696877713847505809, guid: 89e907974f84a0c49b42a6123bc3f82b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1719856034
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719856031}
-  m_CullTransparentMesh: 1
 --- !u!1 &1729148668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,5 +3062,4 @@ SceneRoots:
   - {fileID: 1424916473}
   - {fileID: 1313320342}
   - {fileID: 2005847197}
-  - {fileID: 1719856032}
   - {fileID: 623548698}

@@ -32,28 +32,8 @@ public class MainMenuController : MonoBehaviour
         if (settingsPanel != null)
             settingsPanel.SetActive(false);
 
-        UpdateBackgroundVisuals();
-
         // ⭐ Update button text on start based on current mute state
         UpdateMusicButtonText();
-    }
-
-    void UpdateBackgroundVisuals()
-    {
-        if (backgroundImage == null) return;
-
-        switch (lastLevel)
-        {
-            case "Level2_NeonEdo":
-                backgroundImage.sprite = neonSkyline;
-                break;
-            case "Level3_Desert":
-                backgroundImage.sprite = desertDunes;
-                break;
-            default:
-                backgroundImage.sprite = dojoSilhouette;
-                break;
-        }
     }
 
     public void OnStartClicked()
